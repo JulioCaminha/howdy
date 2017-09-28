@@ -1,24 +1,9 @@
-# README
+# Howdy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Build Status](https://travis-ci.org/JulioCaminha/howdy.svg?branch=master)](https://travis-ci.org/JulioCaminha/howdy)
+[![Code Climate](https://codeclimate.com/github/juliocaminha/howdy/badges/gpa.svg)](https://codeclimate.com/github/juliocaminha/howdy) [![Test Coverage](https://codeclimate.com/github/juliocaminha/howdy/badges/coverage.svg)](https://codeclimate.com/github/juliocaminha/howdy/coverage)
 
-Things you may want to cover:
+A random project.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version: 2.4.2
+* Rails version: 5.1.4
