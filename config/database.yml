@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: postgres
+  host: localhost
+
+development:
+  <<: *default
+  database: howdy_development
+
+test:
+  <<: *default
+  database: howdy_test
+
+production:
+  <<: *default
+  database: howdy_production
+  username: howdy
+  password: <%= ENV['HOWDY_DATABASE_PASSWORD'] %>
