@@ -1,0 +1,13 @@
+AllCops:
+  Include:
+    - "**/Rakefile"
+  Exclude:
+    - "**/*.gemspec"
+    - "bin/**/*"
+    - "spec/**/*"
+    - "config/**/*"
+    - "test/**/*"
+    - "db/**/*"
+    - "Gemfile"
+Documentation:
+  Enabled: false
